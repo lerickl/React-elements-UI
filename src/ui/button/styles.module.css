@@ -1,0 +1,369 @@
+.button {
+  background: withe;
+}
+
+.button {
+  --x: -135deg;
+  margin-bottom: 0.5rem;
+  position: relative;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  width: 10rem;
+  height: 2.4rem;
+  cursor: pointer;
+}
+.button i {
+  position: absolute;
+  inset: -2px;
+  display: block;
+  border-radius: 5px;
+  background: linear-gradient(
+    var(--x, -135deg),
+    #00ffff,
+    #0e153838,
+    #0e153838,
+    #ff0000
+  );
+}
+.button i:nth-child(2) {
+  filter: blur(10px);
+}
+.button span {
+  width: 100%;
+  height: 100%;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  font-weight: 900;
+}
+.button span svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 4px;
+}
+.button:hover {
+  font-weight: 600;
+  animation: animate 2.5s linear infinite;
+  transition: background 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    --x: -135deg;
+  }
+
+  0% {
+    --x: -135deg;
+  }
+  1% {
+    --x: -131.4deg;
+  }
+  2% {
+    --x: -127.8deg;
+  }
+  3% {
+    --x: -124.2deg;
+  }
+  4% {
+    --x: -120.6deg;
+  }
+  5% {
+    --x: -117deg;
+  }
+  6% {
+    --x: -113.4deg;
+  }
+  7% {
+    --x: -109.8deg;
+  }
+  8% {
+    --x: -106.2deg;
+  }
+  9% {
+    --x: -102.6deg;
+  }
+  10% {
+    --x: -99deg;
+  }
+  11% {
+    --x: -95.4deg;
+  }
+  12% {
+    --x: -91.8deg;
+  }
+  13% {
+    --x: -88.2deg;
+  }
+  14% {
+    --x: -84.6deg;
+  }
+  15% {
+    --x: -81deg;
+  }
+  16% {
+    --x: -77.4deg;
+  }
+  17% {
+    --x: -73.8deg;
+  }
+  18% {
+    --x: -70.2deg;
+  }
+  19% {
+    --x: -66.6deg;
+  }
+  20% {
+    --x: -63deg;
+  }
+  21% {
+    --x: -59.4deg;
+  }
+  22% {
+    --x: -55.8deg;
+  }
+  23% {
+    --x: -52.2deg;
+  }
+  24% {
+    --x: -48.6deg;
+  }
+  25% {
+    --x: -45deg;
+  }
+  26% {
+    --x: -41.4deg;
+  }
+  27% {
+    --x: -37.8deg;
+  }
+  28% {
+    --x: -34.2deg;
+  }
+  29% {
+    --x: -30.6deg;
+  }
+  30% {
+    --x: -27deg;
+  }
+  31% {
+    --x: -23.4deg;
+  }
+  32% {
+    --x: -19.8deg;
+  }
+  33% {
+    --x: -16.2deg;
+  }
+  34% {
+    --x: -12.6deg;
+  }
+  35% {
+    --x: -9deg;
+  }
+  36% {
+    --x: -5.4deg;
+  }
+  37% {
+    --x: -1.8deg;
+  }
+  38% {
+    --x: 1.8deg;
+  }
+  39% {
+    --x: 5.4deg;
+  }
+  40% {
+    --x: 9deg;
+  }
+  41% {
+    --x: 12.6deg;
+  }
+  42% {
+    --x: 16.2deg;
+  }
+
+  43% {
+    --x: 19.8deg;
+  }
+  44% {
+    --x: 23.4deg;
+  }
+  45% {
+    --x: 27deg;
+  }
+  46% {
+    --x: 30.6deg;
+  }
+  47% {
+    --x: 34.2deg;
+  }
+  48% {
+    --x: 37.8deg;
+  }
+  49% {
+    --x: 41.4deg;
+  }
+  50% {
+    --x: 45deg;
+  }
+  51% {
+    --x: 48.6deg;
+  }
+  52% {
+    --x: 52.2deg;
+  }
+  53% {
+    --x: 55.8deg;
+  }
+  54% {
+    --x: 59.4deg;
+  }
+  55% {
+    --x: 63deg;
+  }
+  56% {
+    --x: 66.6deg;
+  }
+  57% {
+    --x: 70.2deg;
+  }
+  58% {
+    --x: 73.8deg;
+  }
+  59% {
+    --x: 77.4deg;
+  }
+  60% {
+    --x: 81deg;
+  }
+  61% {
+    --x: 84.6deg;
+  }
+  62% {
+    --x: 88.2deg;
+  }
+  63% {
+    --x: 91.8deg;
+  }
+  64% {
+    --x: 95.4deg;
+  }
+  65% {
+    --x: 99deg;
+  }
+  66% {
+    --x: 102.6deg;
+  }
+  67% {
+    --x: 106.2deg;
+  }
+  68% {
+    --x: 109.8deg;
+  }
+  69% {
+    --x: 113.4deg;
+  }
+  70% {
+    --x: 117deg;
+  }
+  71% {
+    --x: 120.6deg;
+  }
+  72% {
+    --x: 124.2deg;
+  }
+  73% {
+    --x: 127.8deg;
+  }
+  74% {
+    --x: 131.4deg;
+  }
+  75% {
+    --x: 135deg;
+  }
+  76% {
+    --x: 138.6deg;
+  }
+  77% {
+    --x: 142.2deg;
+  }
+  78% {
+    --x: 145.8deg;
+  }
+  79% {
+    --x: 149.4deg;
+  }
+  80% {
+    --x: 153deg;
+  }
+  81% {
+    --x: 156.6deg;
+  }
+  82% {
+    --x: 160.2deg;
+  }
+  83% {
+    --x: 163.8deg;
+  }
+  84% {
+    --x: 167.4deg;
+  }
+  85% {
+    --x: 171deg;
+  }
+  86% {
+    --x: 174.6deg;
+  }
+  87% {
+    --x: 178.2deg;
+  }
+  88% {
+    --x: 181.8deg;
+  }
+  89% {
+    --x: 185.4deg;
+  }
+  90% {
+    --x: 189deg;
+  }
+  91% {
+    --x: 192.6deg;
+  }
+  92% {
+    --x: 196.2deg;
+  }
+  93% {
+    --x: 199.8deg;
+  }
+
+  94% {
+    --x: 203.4deg;
+  }
+  95% {
+    --x: 207deg;
+  }
+  96% {
+    --x: 210.6deg;
+  }
+  97% {
+    --x: 214.2deg;
+  }
+  98% {
+    --x: 217.8deg;
+  }
+  99% {
+    --x: 221.4deg;
+  }
+  100% {
+    --x: 225deg;
+  }
+}
